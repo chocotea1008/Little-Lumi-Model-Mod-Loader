@@ -14,7 +14,7 @@ The loader downloads only to its next-launch staging area. A failed network requ
 
 1. Build the production JAR from the Workshop package.
 2. Calculate its SHA-256.
-3. Create a GitHub release tagged `vX.Y.Z` and upload the artifact as `LumiModLoader.jar`.
+3. Create a GitHub release tagged `vX.Y.Z` and upload the artifact. During a same-version development cycle, use a new revision suffix in the asset filename to avoid CDN cache reuse.
 4. Update `release.json` to that exact tag URL, version, and SHA-256, then commit and push it to `main`.
 
 Do not publish temporary runtime folders, test builds, recovery files, logs, Steam Workshop packages, or user settings in this repository.
