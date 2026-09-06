@@ -4,3 +4,4 @@
 
 - Initial ModLoader update-distribution release.
 - Supports semantic-version comparison, HTTPS download, SHA-256 verification, and next-launch staging.
+- Current Phase 10 development build: creator metadata and profile links in the Mods list.
